@@ -1,0 +1,151 @@
+.bg-custom{
+
+}
+body{
+    margin: 0;
+    background-image: url('https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg');
+    background-repeat: no-repeat;
+
+}
+.navbar{
+ background-color: #2f2f2f;
+}
+.navbar a{
+    text-decoration:  none;
+    color:rgb(215, 217, 228);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar a:hover{
+    background-color: rgba(173, 173, 120, 0.325);
+    border-radius: 30px;
+    transform: skewY(5deg);
+ 
+}
+
+
+.navbar img{
+    width: 100px;
+    transition: width 2s;
+
+}
+.navbar img:hover{
+    width: 150px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid rgb(86, 64, 64);
+    width: 450px;
+    height:600px;
+    background-color: rgba(240, 248, 255, 0.073);
+    border-radius: 30px;
+}
+@keyframes shake{
+    0%, 100% {translate: 0; }
+    25% {translate: 8px 0;}
+    75% {translate: -8px 0;}
+}
+.register input{
+   margin-top: 15px;
+   color: white;
+   border-radius: 10px;
+   background: transparent;
+   border: 1px solid #fe4567;
+   transition: transform 0.2s ease-in-out;
+   animation: shake 0.14s 3;
+
+}
+
+.register input:valid{
+    border-color: #45feaf;
+    animation: none;
+}
+.register select{
+    width: 210px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    background: transparent;
+}
+.register select:focus{
+    transform: scale(1.1);
+}
+.register input:focus{
+    outline: none;
+    transform: scale(1.1);
+
+}
+.logo-register img{
+    width: 300px;
+}
+.trimtie button{
+    margin-top: 10px;
+    width: 210px;
+}
+.trimite button:focus{
+    
+}
+
+
+/*Logare*/
+
+.logare{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid rgb(86, 64, 64);
+    width: 450px;
+    height:600px;
+    background-color: rgba(240, 248, 255, 0.073);
+    border-radius: 30px;
+}
+@keyframes shake{
+    0%, 100% {translate: 0; }
+    25% {translate: 8px 0;}
+    75% {translate: -8px 0;}
+}
+.logare input{
+   margin-top: 15px;
+   color: white;
+   border-radius: 10px;
+   background: transparent;
+   border: 1px solid #fe4567;
+   transition: transform 0.2s ease-in-out;
+   animation: shake 0.14s 3;
+
+}
+
+.logare input:valid{
+    border-color: #45feaf;
+    animation: none;
+}
+.logare input:focus{
+    outline: none;
+    transform: scale(1.1);
+
+}
+.logo-logare img{
+    width: 300px;
+}
+.login button{
+    margin-top: 10px;
+    width: 210px;
+}
+.login button:focus{
+    
+}
