@@ -1,6 +1,4 @@
-.bg-custom{
 
-}
 body{
     margin: 0;
     background-image: url('https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg');
@@ -30,8 +28,6 @@ body{
     transform: skewY(5deg);
 
 }
-
-
 .navbar img{
     width: 100px;
     transition: width 2s;
@@ -151,6 +147,4 @@ body{
     margin-top: 10px;
     width: 185px;
 }
-.login button:focus{
-    
-}
+
